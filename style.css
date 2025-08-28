@@ -1,0 +1,128 @@
+/* Фон для всей страницы */
+body {
+    background-color: #e8dfce; /* Бежевый цвет чуть темнее хедера */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Чтобы фон занимал всю высоту окна */
+}
+
+/* Общие стили для хедера */
+header {
+    background-color: #f5f5dc; /* Более светлый бежевый для хедера */
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для логотипа */
+header img {
+    height: 100px;
+    width: auto;
+}
+
+/* Стили для навигации с кнопками */
+.nav-buttons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-buttons li {
+    display: inline-block;
+}
+
+.nav-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5a4d41;
+    background-color: #e8dfce; /* Цвет кнопок как у хедера */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid #d6c9b8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons a:hover {
+    background-color: #e8dfce; /* Цвет при наведении как у фона страницы */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-buttons a:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.glav {
+    padding: 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили для секции с музыкой */
+#classm {
+    margin-top: 40px;
+}
+
+/* Стили для аудиоплееров */
+.audio-player {
+    background-color: #f9f5f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.audio-player h3 {
+    margin-top: 0;
+    color: #5a4d41;
+    font-size: 1.2em;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+footer{
+    background-color: #f5f5dc;
+    flex-shrink: 0;
+    grid-row: 3;
+   position: fixed;
+   bottom: 0;
+   width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
